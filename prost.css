@@ -152,3 +152,36 @@ footer span{
         font-size: 13px;
     }
 }
+@media print{
+    nav{
+        display: none;
+    }
+    #textend{
+        font-size: 25px;
+    }
+    #textend1{
+        font-size: 13px;
+    }
+    #wsx1 a,#wsx2 a,#wsx3 a,#wsx4 a{
+        font-size: 10px;
+    }
+    #qaz1,#qaz2,#qaz3,#qaz4{
+        width: 90%;
+        height: 350px;
+    }
+    #wsx1,#wsx2,#wsx3,#wsx4{
+        width: 98%;
+        height: 340px;
+    }
+    #wsx1 img,#wsx2 img,#wsx3 img,#wsx4 img{
+        width: 80%;
+        height: 200px;
+    }
+    #wsx1 img:hover,#wsx2 img:hover,#wsx3 img:hover,#wsx4 img:hover{
+        width: 90%;
+        height: 220px;
+    }
+    body{
+        height: 1640px;
+    }
+}
