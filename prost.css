@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 1910px;
+    text-align: center;
+    background: linear-gradient(to right, #8e0e00, #1f1c18);
+}
+header{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background: linear-gradient(to right, #159957, #155799);
+    margin: auto;
+    display: flex;
+    justify-content:center;
+
+}
+header a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content:center;
+}
+
+header img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+}
+#h22{
+    line-height: 70px;
+    font-family: 'Rowdies', cursive;
+}
+#h11{
+    line-height: 70px;
+    font-size: 70px;
+    font-family: 'Abril Fatface', cursive;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+}
+nav li{
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 0px 15px;
+    
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+    
+    
+}
+nav a:hover{
+    background-color: rgb(78, 131, 78);
+    color: rgb(253, 77, 77);
+    height: 100%;
+    width: 100%;
+}
+main{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    background: linear-gradient(to right, #000428, #004e92);
+}
+#qaz1,#qaz2,#qaz3,#qaz4{
+    width: 90%;
+    height: 430px;
+    background-color: white;
+    margin: auto;
+}
+#wsx1,#wsx2,#wsx3,#wsx4{
+    width: 98%;
+    height: 420px;
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+#wsx1 a,#wsx2 a,#wsx3 a,#wsx4 a{
+    float: left;
+    width: 24.5%;
+    height: 105px;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+#wsx1 img,#wsx2 img,#wsx3 img,#wsx4 img{
+    width: 80%;
+    height: 280px;
+}
+#wsx1 img:hover,#wsx2 img:hover,#wsx3 img:hover,#wsx4 img:hover{
+    width: 90%;
+    height: 300px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(1, 1, 68);
+}
+footer span{
+     margin-top: 4px;
+}
+#textend,#textend1{
+    width: 100%;
+    margin-top: 4px;
+    font-family: 'Staatliches', cursive;
+    color: silver;
+}
+@media only screen and (max-width:1090px){
+    #wsx1 a,#wsx2 a,#wsx3 a,#wsx4 a{
+        font-size: 10px;
+    }
+    #qaz1,#qaz2,#qaz3,#qaz4{
+        width: 90%;
+        height: 350px;
+    }
+    #wsx1,#wsx2,#wsx3,#wsx4{
+        width: 98%;
+        height: 340px;
+    }
+    #wsx1 img,#wsx2 img,#wsx3 img,#wsx4 img{
+        width: 80%;
+        height: 200px;
+    }
+    #wsx1 img:hover,#wsx2 img:hover,#wsx3 img:hover,#wsx4 img:hover{
+        width: 90%;
+        height: 220px;
+    }
+    body{
+        height: 1640px;
+    }
+}
+@media only screen and (max-width:900px){
+    #textend{
+        font-size: 25px;
+    }
+    #textend1{
+        font-size: 13px;
+    }
+}
